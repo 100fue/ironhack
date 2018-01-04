@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>npm</title>
+        <meta name="author" content="Miguel Álvarez de Cienfuegos Rosado">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,600,700" rel="stylesheet">
+        <link href="css/ionicons.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/estilos.css">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    
+    <body>
+        <header>
+            <nav class="navbar navbar-light bg-faded col-xs-12">
+                <div id="div-left-nav" class="col-xs-4">
+                    <a id="heart" href="#">❤</a>
+                    <a id="nasty" href="#">Nasty Polka Music</a>
+                </div>
+                <button class="navbar-toggler boton-nav hidden-lg-up" type="button" data-toggle="collapse" data-target="#menu">
+                &#9776;
+                </button>
+                <div id="menu" class="collapse navbar-collapse navbar-toggleable-md col-xs-8">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item">                                 
+                            <a class="nav-link" href="#">npm Enterprise<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">  
+                            <a class="nav-link" href="#">features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">pricing</a>
+                        </li>
+                         <li class="nav-item">
+                            <a class="nav-link" href="#">documentation</a>
+                        </li>
+                        <li class="nav-item"> 
+                            <a class="nav-link" href="#">support</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="sub-header col-xs-12">
+                <div id="logo-head" class="col-xs-2">
+                    <a href="#">
+                        <svg viewBox="0 0 18 7">
+                            <path fill="#CB3837" d="M0,0v6h5v1h4v-1h9v-6"></path>
+                            <path fill="#FFF" d="M1,1v4h2v-3h1v3h1v-4h1v5h2v-4h1v2h-1v1h2v-4h1v4h2v-3h1v3h1v-3h1v3h1v-4"></path>
+                        </svg>
+                    </a>
+                </div>
+                <form id="searchbox" action="#">
+                    <input class="form-control" type="text" placeholder="find packages" name="search" id="search">
+                    <button class="btn btn-outline-success" type="submit" id="search_button"><i class="ion-ios-search-strong"></i></button>
+                </form>
+                <div id="login">
+                    <span><a href="">sign up</a> or <a href="">log in</a></span>
+                    <img src="images/bear-logo.png" alt="">
+                </div>
+            </div>
+        </header>
+        <section id="sect-1" class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div id="banner-1" class="col-xs-6">
+                        <h1>Build amazing things</h1>
+                        <p>
+                            npm is the package manager for JavaScript and the world’s largest software registry. Discover packages of reusable code — and assemble them in powerful new ways.
+                        </p>
+                        <a href="">Sign up for npm</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="sect-2" class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div id="s-2-div-img" class="col-xs-6">
+                        <img src="images/collaboration.svg" alt="">
+                    </div>
+                    <div id="s-2-div-ban" class="col-xs-6">
+                        <h2>npm Orgs is powerful collaboration — for free</h2>
+                        <ul>
+                            <li>Encourage code discovery and re-use within teams</li>
+                            <li>Publish and control access to your own namespace</li>
+                            <li>Manage public and private code with the same workflow</li>
+                        </ul>
+                        <a id="s-2-b-a" href="#">Sign up for Orgs</a>
+                        <p>or, <a href="#">Learn more about Orgs</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="sect-3" class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div id="s-3-d-b" class="col-xs-6">
+                        <h2>What is npm?</h2>
+                        <p>Use npm to install, share, and distribute code; manage dependencies in your projects; and share & receive feedback with others.</p>
+                        <a href="#">Install npm</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="sect-4" class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <h2>What can you make with 475,000 building blocks?</h2>
+                    <p id="s-4-p">The npm registry hosts almost half a million packages of free, reusable code — the largest software registry in the world.</p>
+                    <article class="col-xs-4">
+                        <img src="images/binoculars.svg" alt="">
+                        <h3>Find</h3>
+                        <p>Libraries like <a href="">JQuery</a>, <a href="">Bootstrap</a>, <a href="">React</a>, and <a href="">Angular</a>, and components from frameworks such as <a href="">Ember</a>.</p>
+                    </article>
+                    <article class="col-xs-4">
+                        <img src="images/mountain-flag.svg" alt="">
+                        <h3>Discover</h3>
+                        <p>Packages for mobile, IoT, front end, back end, robotics… everything you need to start building amazing things.</p>
+                    </article>
+                    <article class="col-xs-4">
+                        <img src="images/backpack.svg" alt="">
+                        <h3>Build</h3>
+                        <p>Assemble packages like building blocks to quickly develop awesome new projects.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section id="sect-5" class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div id="s-5-d-b" class="col-xs-6">
+                        <h2>Join the modular development revolution</h2>
+                        <p>Every month, more than 7 million developers use npm to find, share, and reuse code — and assemble it in powerful new ways.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="sect-6">
+            <div class="container">
+                <div class="row">
+                    <div id="s-6-d-i" class="col-xs-6">
+                        <img src="images/mountain-climbing-bears.svg" alt="">
+                    </div>
+                    <div id="s-6-d-b" class="col-xs-6">
+                        <h2>Take your enterprise to new heights</h2>
+                        <p>Harness the power of npm inside large teams. Host your own private npm registry and securely integrate your workflow and tools.Start an enterprise trial</p>
+                        <a href="">Start an entreprise trial</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="sect-7">
+            <div class="container">
+                <div class="row">
+                    <h2>Get started with npm</h2>
+                    <p id="s-7-p">npm has tools for projects and teams of every size.</p>
+                    <article id="s-7-a-1" class="col-xs-3">
+                        <div class="s-7-d-c">
+                            <div class="s-7-d-d">
+                                <h3>free</h3>
+                            </div>
+                            <h4>npm account</h4>
+                            <h6>Browse, install, and publish public code</h6>
+                            <ul>
+                                <li>Discover and re-use over 470,000 free code packages in the npm Registry</li>
+                                <li>Publish unlimited packages</li>
+                                <li>Manage unlimited collaborators with Orgs</li>
+                            </ul>
+                            <a href="">Create account</a>
+                        </div>
+                    </article>
+                    <article id="s-7-a-2" class="col-xs-3">
+                        <div class="s-7-d-c">
+                            <div class="s-7-d-d">
+                                <h3><span>$</span>7</h3>
+                                <p>per user / month</p>
+                            </div>
+                            <h4>Private packages</h4>
+                            <h6>Your own restricted scope for private code</h6>
+                            <ul>
+                                <li>Combine public packages with private code in your own namespace</li>
+                                <li>Delegate access to other users</li>
+                                <li>Configure powerful custom notifications</li>
+                            </ul>
+                            <a href="">Sign up</a>
+                        </div>
+                    </article>
+                    <article id="s-7-a-3" class="col-xs-3">
+                        <div class="s-7-d-c">
+                            <div class="s-7-d-d">
+                                <div id="head-h3-s7">
+                                    <span id="span-from">from</span>
+                                    <h3><span>$</span>16</h3>
+                                </div>
+                                <p>per user / per month</p>
+                            </div>
+                            <h4>Enterprise</h4>
+                            <h6>Bring npm into large companies</h6>
+                            <ul>
+                                <li>Selectively mirror the registry behind your firewall</li>
+                                <li>Customize support and SLAs to meet your needs</li>
+                                <li>Integrate with existing deployment and auth­enti­cation toolsLearn more</li>
+                            </ul>
+                            <a href="">Learn more</a>
+                        </div>
+                    </article>
+                    <h3 id="heart-s7" class="col-xs-12">npm ♥︎ Open Source</h3>
+                    <p id="p-fin-s7" class="col-xs-12">Browsing, installing, and publishing is always free for public packages.</p>
+                </div>
+            </div>
+        </section>
+        <section id="sect-8">
+            <div class="container">
+                <div class="row">
+                    <h2>Packages people 'npm install' a lot</h2>
+                    <ul class="col-xs-4">
+                        <li>
+                            <div class="s-8-d-i col-xs-4">
+                                <a href="">
+                                    <img src="images/img-1.png" alt="">
+                                </a>
+                            </div>
+                            <div class="s-8-d-cont col-xs-8">
+                                <h3>
+                                    <a href="">browserify</a>
+                                </h3>
+                                <p class="p-1-s8">browser-side require() the nod...</p>
+                                <p class="p-2-s8"><a href="">14.5.0</a> published 2 months ago by <a href="">goto-bus-stop</a></p>
+                            </div>    
+                        </li>
+                        <li>
+                            <div class="s-8-d-i col-xs-4">
+                                <a href="">
+                                    <img src="images/img-2.png" alt="">
+                                </a>
+                            </div>
+                            <div class="s-8-d-cont col-xs-8">
+                                <h3>
+                                    <a href="">grunt-cli</a>
+                                </h3>
+                                <p class="p-1-s8">The grunt command line interf...</p>
+                                <p class="p-2-s8"><a href="">1.2.0</a> published 2 years ago by <a href="">vladikoff</a></p>
+                            </div>    
+                        </li>
+                        <li>
+                            <div class="s-8-d-i col-xs-4">
+                                <a href="">
+                                    <img src="images/img-3.png" alt="">
+                                </a>
+                            </div>
+                            <div class="s-8-d-cont col-xs-8">
+                                <h3>
+                                    <a href="">bower</a>
+                                </h3>
+                                <p class="p-1-s8">The browser package manager</p>
+                                <p class="p-2-s8"><a href="">1.8.2</a> published 3 months ago by <a href="">sheerun</a></p>
+                            </div>    
+                        </li>
+                    </ul>
+                    <ul id="s-8-ul-2" class="col-xs-4">
+                        <li>
+                            <div class="s-8-d-i col-xs-4">
+                                <a href="">
+                                    <img src="images/img-4.png" alt="">
+                                </a>
+                            </div>
+                            <div class="s-8-d-cont col-xs-8">
+                                <h3>
+                                    <a href="">gulp</a>
+                                </h3>
+                                <p class="p-1-s8">The streaming build system</p>
+                                <p class="p-2-s8"><a href="">3.9.1</a> published 2 years ago by <a href="">phated</a></p>
+                            </div>    
+                        </li>
+                        <li>
+                            <div class="s-8-d-i col-xs-4">
+                                <a href="">
+                                    <img src="images/img-2.png" alt="">
+                                </a>
+                            </div>
+                            <div class="s-8-d-cont col-xs-8">
+                                <h3>
+                                    <a href="">grunt</a>
+                                </h3>
+                                <p class="p-1-s8">The JavaScript Task Runner</p>
+                                <p class="p-2-s8"><a href="">1.0.1</a> published 2 years ago by <a href="">shama</a></p>
+                            </div>    
+                        </li>
+                        <li>
+                            <div class="s-8-d-i col-xs-4">
+                                <a href="">
+                                    <img src="images/img-6.png" alt="">
+                                </a>
+                            </div>
+                            <div class="s-8-d-cont col-xs-8">
+                                <h3>
+                                    <a href="">express</a>
+                                </h3>
+                                <p class="p-1-s8">Fast, unopinionated, minimali...</p>
+                                <p class="p-2-s8"><a href="">4.16.2</a> published 2 months ago by <a href="">dougwilson</a></p>
+                            </div>    
+                        </li>
+                    </ul>
+                    <ul class="col-xs-4">
+                        <li>
+                            <div class="s-8-d-i col-xs-4">
+                                <a href="">
+                                    <img src="images/img-7.svg" alt="">
+                                </a>
+                            </div>
+                            <div class="s-8-d-cont col-xs-8">
+                                <h3>
+                                    <a href="">npm</a>
+                                </h3>
+                                <p class="p-1-s8">a package manager for JavaSc...</p>
+                                <p class="p-2-s8"><a href="">5.6.0</a> published 2 weeks ago by <a href="">zkat</a></p>
+                            </div>    
+                        </li>
+                        <li>
+                            <div class="s-8-d-i col-xs-4">
+                                <a href="">
+                                    <img src="images/img-8.png" alt="">
+                                </a>
+                            </div>
+                            <div class="s-8-d-cont col-xs-8">
+                                <h3>
+                                    <a href="">cordova</a>
+                                </h3>
+                                <p class="p-1-s8">Cordova command line interfa...</p>
+                                <p class="p-2-s8"><a href="">7.1.0</a> published 2 months ago by <a href="">stevegill</a></p>
+                            </div>    
+                        </li>
+                        <li>
+                            <div class="s-8-d-i col-xs-4">
+                                <a href="">
+                                    <img src="images/img-9.svg" alt="">
+                                </a>
+                            </div>
+                            <div class="s-8-d-cont col-xs-8">
+                                <h3>
+                                    <a href="">forever</a>
+                                </h3>
+                                <p class="p-1-s8">A simple CLI tool for ensuring ...</p>
+                                <p class="p-2-s8"><a href="">0.15.3</a> published a year ago by <a href="">indexzero</a></p>
+                            </div>    
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="sect-9" class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <aricle class="col-xs-4">
+                        <div class="col-xs-4">
+                            <img src="images/Avatar1.svg" alt="">
+                        </div>
+                        <div class="col-xs-8">
+                            <h4>
+                                <a href="">Get started with npm</a>
+                            </h4>
+                            <p>The npm command-line tool is bundled with <a href="">Node.js.</a> If you have it installed, then you already have npm too. If not, go download <a href="">Node.js.</a></p>
+                        </div>
+                    </aricle>
+                    <aricle class="col-xs-4">
+                        <div class="col-xs-4">
+                            <img src="images/Avatar2.svg" alt="">
+                        </div>
+                        <div class="col-xs-8">
+                            <h4>
+                                <a href="">Screencasts & docs</a>
+                            </h4>
+                            <p>We've got a <a href="">docs site</a> featuring videos and tutorials to help you make your javascript dreams come true. Head on over to <a href="">docs.npmjs.com</a></p>
+                        </div>
+                    </aricle>
+                    <aricle class="col-xs-4">
+                        <div class="col-xs-4">
+                            <img src="images/Avatar3.svg" alt="">
+                        </div>
+                        <div class="col-xs-8">    
+                            <h4>
+                                <a href="">Find work</a>
+                            </h4>
+                            <p><a href="">Hired</a>, <a href="">MuleSoft</a>, <a href="">Alpha</a> and lots of other companies are hiring javascript developers. <a href="">View all 22…</a></p>
+                        </div>
+                    </aricle>
+                </div>
+            </div>
+        </section>
+        <section id="sect-10" class="container">
+            <div class="row">
+                <h2>Most depended-upon packages</h2>
+                <div id="group-1" class="col-xs-4">
+                    <article>
+                        <div class="col-xs-1">
+                            <img src="images/section-9-simbol.png" alt="">
+                        </div>
+                        <div class="col-xs-11">
+                            <h3>
+                                <a href="">lodash</a>
+                            </h3>
+                            <p class="p-1">Lodash modular utilities.</p>
+                            <p class="p-2"><a href="">4.17.4</a> updated a year ago</p>
+                            <p class="p-3">by <a href="">jdalton</a></p>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="col-xs-1">
+                            <img src="images/section-9-simbol.png" alt="">
+                        </div>
+                        <div class="col-xs-11">
+                            <h3>
+                                <a href="">request</a>
+                            </h3>
+                            <p class="p-1">Simplified HTTP request client.</p>
+                            <p class="p-2"><a href="">2.83.0</a> updated 3 months ago</p>
+                            <p class="p-3">by <a href="">mikeal</a></p>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="col-xs-1">
+                            <img src="images/section-9-simbol.png" alt="">
+                        </div>
+                        <div class="col-xs-11">
+                            <h3>
+                                <a href="">chalk</a>
+                            </h3>
+                            <p class="p-1">Terminal string styling done right</p>
+                            <p class="p-2"><a href="">2.3.0</a> updated 2 months ago</p>
+                            <p class="p-3">by <a href="">sindresorhus</a></p>
+                        </div>
+                    </article>
+                </div>
+                <div id="group-2" class="col-xs-4">
+                    <article>
+                        <div class="col-xs-1">
+                            <img src="images/section-9-simbol.png" alt="">
+                        </div>
+                        <div class="col-xs-11">
+                            <h3>
+                                <a href="">async</a>
+                            </h3>
+                            <p class="p-1">Higher-order functions and common patterns...</p>
+                            <p class="p-2"><a href="">2.6.0</a> updated 2 months ago</p>
+                            <p class="p-3">by <a href="">aearly</a></p>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="col-xs-1">
+                            <img src="images/section-9-simbol.png" alt="">
+                        </div>
+                        <div class="col-xs-11">
+                            <h3>
+                                <a href="">express</a>
+                            </h3>
+                            <p class="p-1">Fast, unopinionated, minimalist web frame...</p>
+                            <p class="p-2"><a href="">4.16.2</a> updated 3 months ago</p>
+                            <p class="p-3">by <a href="">mikeal</a></p>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="col-xs-1">
+                            <img src="images/section-9-simbol.png" alt="">
+                        </div>
+                        <div class="col-xs-11">
+                            <h3>
+                                <a href="">bluebird</a>
+                            </h3>
+                            <p class="p-1">Full featured Promises/A+ implementation...</p>
+                            <p class="p-2"><a href="">3.5.1</a> updated 3 months ago</p>
+                            <p class="p-3">by <a href=""> esailija</a></p>
+                        </div>
+                    </article>
+                </div>
+                <div id="group-3" class="col-xs-4">
+                    <article>
+                        <div class="col-xs-1">
+                            <img src="images/section-9-simbol.png" alt="">
+                        </div>
+                        <div class="col-xs-11">
+                            <h3>
+                                <a href="">commander</a>
+                            </h3>
+                            <p class="p-1">the complete solution for node.js command-lin...</p>
+                            <p class="p-2"><a href="">2.12.2</a> updated a month ago</p>
+                            <p class="p-3">by <a href="">abetomo</a></p>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="col-xs-1">
+                            <img src="images/section-9-simbol.png" alt="">
+                        </div>
+                        <div class="col-xs-11">
+                            <h3>
+                                <a href="">react</a>
+                            </h3>
+                            <p class="p-1">React is a JavaScript library for building user in...</p>
+                            <p class="p-2"><a href="">16.2.0</a> updated a month ago</p>
+                            <p class="p-3">by <a href=""> clemmy</a></p>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="col-xs-1">
+                            <img src="images/section-9-simbol.png" alt="">
+                        </div>
+                        <div class="col-xs-11">
+                            <h3>
+                                <a href="">debug</a>
+                            </h3>
+                            <p class="p-1">small debugging utility...</p>
+                            <p class="p-2"><a href="">3.1.0</a> updated 3 months ago</p>
+                            <p class="p-3">by <a href="">  tootallnate</a></p>
+                        </div>
+                    </article>
+                </div>                
+            </div>
+        </section>
+        <footer class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-4">
+                        <h3>You Need Help</h3>
+                        <ul>
+                            <li><a href="">Documentation</a></li>
+                            <li><a href="">Support / Contact Us</a></li>
+                            <li><a href="">Registry Status</a></li>
+                            <li><a href="">Website Issues</a></li>
+                            <li><a href="">CLI Issues</a></li>
+                            <li><a href="">Security</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-4">
+                        <h3>About npm</h3>
+                        <ul>
+                            <li><a href="">About npm, Inc</a></li>
+                            <li><a href="">Jobs</a></li>
+                            <li><a href="">npm Weekly</a></li>
+                            <li><a href="">Blog</a></li>
+                            <li><a href="">Twitter</a></li>
+                            <li><a href="">GitHub</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-4">
+                        <h3>Legal Stuff</h3>
+                        <ul>
+                            <li><a href="">Terms of Use</a></li>
+                            <li><a href="">Code of Conduct</a></li>
+                            <li><a href="">Package Name Disputes</a></li>
+                            <li><a href="">Privacy Policy</a></li>
+                            <li><a href="">Reporting Abuse</a></li>
+                            <li><a href="">Other policies</a></li>
+                        </ul>
+                    </div>
+                    <p><a id="subfooter" href="">npm loves you</a></p>
+                </div>
+            </div>
+        </footer>
+        
+
+        <script src="js/jquery-2.2.3.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
